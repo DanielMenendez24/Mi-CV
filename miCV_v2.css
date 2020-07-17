@@ -23,7 +23,7 @@ h3{
 }
 .ind{
     display: inline-block;
-    color: black;
+    color: #222222;
     text-decoration: none;
     padding: 10px 20px 10px 20px;
     transition: .3s;
