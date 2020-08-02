@@ -56,6 +56,10 @@ h3 {
     text-shadow: 2px 2px 2px #222222;
 }
 
+.imgP {
+    border-radius: 25px;
+}
+
 .exp {
     width: 100%;
     height: 280px;
