@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Menendez</title>
     <link rel="stylesheet" href="miCV_v2.css">
+    <!-- <script src="miCV_v2.js"></script> -->
 </head>
 
 <body>
@@ -30,26 +31,30 @@
             <h3>Web Developer</h3>
             <p>Montevideo, Uruguay</p>
             <br>
-            <p><b>Age:</b> 21 years old <br><b>Phone:</b> +598 95 427 856 <br><b>Email:</b>
-                daniel.menendez.contacto@gmail.com
+            <p><b>Age:</b> 21 years old <br><b>Phone:</b> +598 95 427 856 <br><b>Email:</b> daniel.menendez.contacto@gmail.com
             </p>
         </center>
     </section>
     <section class="exp" id="xp">
         <center>
             <h2 id="workExp">Work Experience</h2>
-            <table class="t" border="0" width="60%">
-                <tr>
-                    <th align="center"><strong>Business/Organization</strong></th>
-                    <th align="center"><strong>Position</strong></th>
-                    <th align="center"><strong>Localization</strong></th>
-                </tr>
-                <tr>
-                    <td align="center">BIDENUX S.A.</td>
-                    <td align="center">Auxiliary Sales</td>
-                    <td align="center">Montevideo</td>
-                </tr>
-            </table>
+            <div class="container">
+                <div class="divTitleExp">
+                    <p><strong>Business</strong></p>
+                    <br>
+                    <p>BIDENUX S.A.</p>
+                </div>
+                <div class="divTitleExp">
+                    <p><strong>Position</strong></p>
+                    <br>
+                    <p>Auxiliary Sales</p>
+                </div>
+                <div class="divTitleExp">
+                    <p><strong>Localization</strong></p>
+                    <br>
+                    <p>Montevideo</p>
+                </div>
+            </div>
         </center>
     </section>
     <section class="education" id="edu">
@@ -76,17 +81,77 @@
     </section>
     <section class="skill" id="sk">
         <center>
-            <h2 id="skills">Skills and Knowledgement</h2>
-            <p class="nameSkill">HTML5</p>
-            <p class="nameSkill">CSS3</p>
-            <p class="nameSkill">JavaScript</p>
-            <p class="nameSkill">Java</p>
-            <p class="nameSkill">VisualBasic.NET</p>
-            <p class="nameSkill">SQL</p>
-            <p class="nameSkill">ShellScript</p>
-            <p class="nameSkill">Photoshop CS6</p>
-            <p class="nameSkill">UML</p>
-            <p class="nameSkill">Projects Management</p>
+            <h2 id="skills">Skills and Knowledge</h2>
+            <div class="nameSkill">
+                <img src="img/skills/html.png" alt="HTML5" class="imgSkill">
+                <div class="title">
+                    <p>HTML5</p>
+                    <p class="desc">Junior</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/css.png" alt="CSS3" class="imgSkill">
+                <div class="title">
+                    <p>CSS3</p>
+                    <p class="desc">Junior</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/javascript.png" alt="JavaScript" class="imgSkill">
+                <div class="title">
+                    <p>JavaScript</p>
+                    <p class="desc">Basic</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/java.png" alt="Java" class="imgSkill">
+                <div class="title">
+                    <p>Java</p>
+                    <p class="desc">Basic</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/visualbasic.png" alt="VisualBasic.NET" class="imgSkill">
+                <div class="title">
+                    <p>VisualBasic.NET</p>
+                    <p class="desc">Junior</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/sql.png" alt="SQL" class="imgSkill">
+                <div class="title">
+                    <p>SQL</p>
+                    <p class="desc">Medium</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/bash.png" alt="Bash" class="imgSkill">
+                <div class="title">
+                    <p>Bash</p>
+                    <p class="desc">Basic</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/photoshop.png" alt="Photoshop CS6" class="imgSkill">
+                <div class="title">
+                    <p>Photoshop CS6</p>
+                    <p class="desc">Medium</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/uml.png" alt="UML" class="imgSkill">
+                <div class="title">
+                    <p>UML</p>
+                    <p class="desc">Basic</p>
+                </div>
+            </div>
+            <div class="nameSkill">
+                <img src="img/skills/pm.png" alt="Projects Management" class="imgSkill">
+                <div class="title">
+                    <p>Projects Management</p>
+                    <p class="desc">Junior</p>
+                </div>
+            </div>
         </center>
     </section>
     <footer>
@@ -94,12 +159,9 @@
             <center>
                 <h2 id="socialNetwork">Social Networks</h2>
                 <section class="btnSocialNet">
-                    <a href="https://www.facebook.com/daniel.menendez.54390876"><img src="img/facebook.png"
-                            alt="Facebook" width="40px" height="40px" class="btnSocial"></a>
-                    <a href="https://www.instagram.com/janxdenn.exe/"><img src="img/instagram.png" alt="Instagram"
-                            width="40px" height="40px" class="btnSocial"></a>
-                    <a href="https://www.linkedin.com/in/daniel-menendez-b6467b1b1/"><img src="img/linkedin.png"
-                            alt="LinkedIn" width="40px" height="40px" class="btnSocial"></a>
+                    <a href="https://www.facebook.com/daniel.menendez.54390876"><img src="img/facebook.png" alt="Facebook" width="40px" height="40px" class="btnSocial"></a>
+                    <a href="https://www.instagram.com/janxdenn.exe/"><img src="img/instagram.png" alt="Instagram" width="40px" height="40px" class="btnSocial"></a>
+                    <a href="https://www.linkedin.com/in/daniel-menendez-b6467b1b1/"><img src="img/linkedin.png" alt="LinkedIn" width="40px" height="40px" class="btnSocial"></a>
                 </section>
             </center>
         </section>
