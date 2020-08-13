@@ -1,3 +1,4 @@
+/* Global */
 html {
     scroll-behavior: smooth;
 }
@@ -15,6 +16,7 @@ h3 {
     font: lighter;
 }
 
+/* section index */
 .index {
     display: block;
     position: fixed;
@@ -26,6 +28,7 @@ h3 {
     box-shadow: 5px 0px 5px #222222;
 }
 
+/* section index -> a ind */
 .ind {
     display: inline-block;
     color: #222222;
@@ -46,6 +49,7 @@ h3 {
     border-bottom: 0px;
 }
 
+/* section info */
 .info {
     background-image: url(img/backProfile.jpg);
     background-position: center;
@@ -56,10 +60,12 @@ h3 {
     text-shadow: 2px 2px 2px #222222;
 }
 
+/* section info -> img */
 .imgP {
     border-radius: 100px;
 }
 
+/* section exp */
 .exp {
     width: 100%;
     height: 280px;
@@ -67,6 +73,7 @@ h3 {
     color: #222222;
     font-size: 16px;
 }
+
 
 .container {
     display: flex;
