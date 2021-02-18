@@ -1,4 +1,5 @@
 /* Global */
+
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +17,9 @@ h3 {
     font: lighter;
 }
 
+
 /* section index */
+
 .index {
     /* Structure */
     display: block;
@@ -30,7 +33,9 @@ h3 {
     box-shadow: 5px 0px 5px #222222;
 }
 
+
 /* section index -> a ind */
+
 .ind {
     /* Strecture */
     display: inline-block;
@@ -41,18 +46,6 @@ h3 {
     /* Animation */
     transition: .3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .ind:hover {
     background-color: skyblue;
@@ -66,7 +59,9 @@ h3 {
     border-bottom: 0px;
 }
 
+
 /* section info */
+
 .info {
     background-image: url(img/backProfile.jpg);
     background-position: center;
@@ -77,12 +72,16 @@ h3 {
     text-shadow: 2px 2px 2px #222222;
 }
 
+
 /* section info -> img */
+
 .imgP {
     border-radius: 100px;
 }
 
+
 /* section exp */
+
 .exp {
     width: 100%;
     height: 280px;
@@ -90,7 +89,6 @@ h3 {
     color: #222222;
     font-size: 16px;
 }
-
 
 .container {
     display: flex;
