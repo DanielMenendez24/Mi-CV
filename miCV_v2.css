@@ -18,24 +18,41 @@ h3 {
 
 /* section index */
 .index {
+    /* Structure */
     display: block;
     position: fixed;
     align-content: center;
-    background-color: white;
     width: 100%;
     height: 40px;
+    /* Design */
+    background-color: white;
     border-bottom: 1px solid #222222;
     box-shadow: 5px 0px 5px #222222;
 }
 
 /* section index -> a ind */
 .ind {
+    /* Strecture */
     display: inline-block;
+    padding: 10px 20px 10px 20px;
+    /* Design */
     color: #222222;
     text-decoration: none;
-    padding: 10px 20px 10px 20px;
+    /* Animation */
     transition: .3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ind:hover {
     background-color: skyblue;
